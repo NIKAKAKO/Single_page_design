@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size:18px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-flow:column;
+    background: #F2F2F2;
+    margin:0px;
+
+}
+
+.header {
+width:77%;
+display:flex;
+justify-content:space-between
+
+}
+
+#cornerbox {
+
+
+}
+
+#buttonbox {
+
+
+}
+
+#butdiv {
+    align-items:center;
+    display:flex;
+    justify-content:center;
+
+}
+
+
+.promotiontext1 {
+    width:80%;
+    margin-bottom:80px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+
+
+}
+#maintext {
+    font-size:56px;
+    font-weight:700;
+}
+
+
+.promotiontext {
+    display:flex;
+    justify-content:space-between;
+
+
+}
+
+
+
+
+.gellery {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+
+
+}
+
+
+.footer {
+    width:77%;
+    display:flex;
+    justify-content:space-between;
+    }
+
+    .consult {
+        width:228px;
+        height:56px;
+        background: #030303;
+        border-radius: 28px;
+        color:#FFFFFF;
+
+    }
+
+ 
+
+    #contenttext {
+        margin-top:23px;
+       font-size:18px;
+       font-weight:500;
+       width:70%;
+       text-align:center;
+    }
+
+    .bioinfo {
+        margin-top:50px;
+        width:77%;
+        display:flex;
+        justify-content:space-between;
+        
+    }
+
+    .image {
+        flex-basis: 35%;
+    
+    }
+
+    .biography {
+       
+        flex-basis:45%;
+
+    }
+    .bioitems {
+    font-size:40px;
+    font-weight:700;
+    }
+
+    .bookacall {
+        margin-top:50px;
+        width:77%;
+        display:flex;
+        justify-content:space-between;
+        background:black;
+        color:#ffffff;
+        padding:5%;
+    }
+
+    #buttonred {
+        background-color:#EB7565
+        ;
+
+    }
+
+    .footer {
+        margin-top:50px;
+        width:77%;
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .categorythumbs {
+        width:77%;
+        display:grid;
+        grid-template-columns: repeat(5, 1f);
+        grid-template-rows: repeat(2, 1f);
+        color:#ffffff;
+
+    }
+    #t1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start:1;
+        grid-row-end:3;
+        background-color: #755CDE;
+        margin-right:10px;
+        margin-bottom:10px;
+
+    }
+    #t2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start:1;
+        grid-row-end:2;
+        background-color: #F6A560;
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+    #t3 {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start:1;
+        grid-row-end:2;
+        background-color: #F39E9E;
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+    #t4 {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start:1;
+        grid-row-end:2;
+        background-color: #61C4B7;
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+    #t5 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start:2;
+        grid-row-end:3;
+        background-color: #EB7565;
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+    #t6 {
+        grid-column-start: 5;
+        grid-column-end: 7;
+        grid-row-start:2;
+        grid-row-end:3;
+        background-color: #552049;
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+    .toptext {
+        flex-basis: 40%;
+
+    }
+    .toptexth {
+        font-size:40px;
+        font-weight:700;
+
+    }
+    .thumbs {
+        display:flex;
+        flex-direction:column-reverse;
+        justify-content:space-between;
+
+    }
+    .thumbimage {
+        width:25%;
+        height:auto;
+        margin-bottom:10%;
+    }
+
+    .galleryarrow {
+
+        display:flex;
+        width:77%%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .gellery {
+        width:77%;
+
+    }
+    .myworkheader {
+        text-align:center;
+    font-size:32px;
+    font-weight:700;
+    width:77%;   
+
+    }
+    #arrowidl {
+        background-color: #030303;
+        padding:10px;
+        margin:10px;
+        border-radius: 50%;
+        width:64px;
+        height:64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .bioitemstext {
+        margin-top:50px;
+        margin-bottom:50px;
+
+    }
+    #arrowidr {
+        background-color: #030303;
+        padding:10px;
+        margin:10px;
+        width:64px;
+        height:64px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .gallery {
+        width:100%;
+        border:1px solid black;
+        height:400px;
+        margin-top:10px;
+        margin-bottom:10px;
+        display:flex;
+        justify-content:flex-start;
+
+    }
+
+    .img1 {
+        flex-basis: 30%;
+        border:1px solid red;
+        background-image: url("./assets/image-slide-1.jpg")
+    }
+
+    .img2 {
+        flex-basis: 35%;
+        margin-left:2.5%;
+        margin-right:2.5%;
+        border:1px solid red;
+        background-image: url("/assets/image-slide-2.jpg");
+
+    }
+    .img3 {
+        flex-basis: 30%;
+        border:1px solid red;
+        background-image: url("/assets/image-slide-3.jpg");
+
+    }
